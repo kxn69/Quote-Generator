@@ -25,6 +25,7 @@ function complete() {
 // show New Quote
 function newQuote() {
   loading();
+
   //   Pick a random quote from apiQuotes array
   const quote = apiQuotes[Math.floor(Math.random() * apiQuotes.length)];
   const author = quote.author.split(',')[0];
